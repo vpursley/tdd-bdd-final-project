@@ -46,7 +46,7 @@ def init_db(app):
 
 
 class DataValidationError(Exception):
-    """Used for an data validation errors when deserializing"""
+    """Used for a data validation errors when deserializing"""
 
 
 class Category(Enum):
